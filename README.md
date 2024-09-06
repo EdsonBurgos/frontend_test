@@ -12,6 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Para poder visualizar el proyecto tenemos dos formas, la primera y más sencilla es la ejecución que ofrece el mismo npm
 y react, y la segunda forma ya es mediante un servidor, en este caso, un servidor apache2.
 
+Es necesario ejecutar el comando `npm install` al clonar el proyecto para tener todas las dependencias
+
 ### Sin servidor
 
 Para ejecutar el proyecto mediante npm sin tener un servidor, hay que ejecutar el siguiente commando ```npm start```
