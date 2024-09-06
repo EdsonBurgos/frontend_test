@@ -36,7 +36,7 @@ Crea el certificado de autofirmado
     *
     ```sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt```
 * Completa la información solicitada
-  * ![img.png](img.png)
+  * ![img.png](https://raw.githubusercontent.com/EdsonBurgos/frontend_test/master/img.png)
 * Listo
 
 Una vez teniendo el servidor listo vamos a hacer lo siguiente
@@ -76,4 +76,5 @@ Una vez teniendo el servidor listo vamos a hacer lo siguiente
         * Agrega la línea
           * 127.0.0.1       "[url.domain]"
     * dir_name: Nombre del directorio del proyecto clonado
+* Habilita tu host con el siguiente comando y el nombre de tu archivo conf`sudo a2ensite [nombre].conf`
 * Reinicia apache y tendrás listo tu proyecto
